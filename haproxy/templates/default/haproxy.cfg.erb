@@ -1,12 +1,12 @@
 global
 log 127.0.0.1 local1 debug
-
+#comment 1
 chroot /var/lib/haproxy
 pidfile /var/run/haproxy.pid
 user haproxy
 group haproxy
 daemon
-
+#comment 2
 defaults
 log global
 mode http
